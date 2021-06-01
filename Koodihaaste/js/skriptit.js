@@ -68,10 +68,10 @@ if(auto1nopeus > 0 && auto2nopeus > 0) {
 		kulutusEro = 0;
 		if(total > total2) {
 			kulutusEro = total - total2;
-			teksti1 = "Vaihtoehto 1 kuluttaa ";
+			teksti1 = "Vaihtoehto 2 kuluttaa ";
 		} else if(total2 > total) {
 			kulutusEro = total2 - total;
-			teksti1 = "Vaihtoehto 2 kuluttaa ";
+			teksti1 = "Vaihtoehto 1 kuluttaa ";
 		} else {
 			kulutusEro = 0;
 		} 
@@ -98,7 +98,7 @@ if(auto1nopeus > 0 && auto2nopeus > 0) {
 		+ Math.round(minuutit) + " minuuttia.<br> Vaihtoehto 2 kulutus on: " 
 		+ Math.round(total2*100)/100 + " litraa. Aika: " + tunnit2 + " tuntia ja " 
 		+ Math.round(minuutit2) + " minuuttia. <br> " + teksti1 + " "
-		+ Math.round(kulutusEro*100)/100 + " litraa enemmän."
+		+ Math.round(kulutusEro*100)/100 + " litraa vähemmän."
 		+ "<br> " + aikaTeksti + " " + tuntiEro + " tuntia ja " 
 		+ Math.round(minuuttiEro) + " minuuttia nopeampi"
 		
@@ -130,10 +130,10 @@ if(auto1nopeus > 0 && auto2nopeus > 0) {
 		kulutusEro = 0;
 		if(total > total2) {
 			kulutusEro = total - total2;
-			teksti1 = "Vaihtoehto 1 kuluttaa ";
+			teksti1 = "Vaihtoehto 2 kuluttaa ";
 		} else if(total2 > total) {
 			kulutusEro = total2 - total;
-			teksti1 = "Vaihtoehto 2 kuluttaa ";
+			teksti1 = "Vaihtoehto 1 kuluttaa ";
 		} else {
 			kulutusEro = 0;
 		}
@@ -159,7 +159,7 @@ if(auto1nopeus > 0 && auto2nopeus > 0) {
 		+ Math.round(minuutit) + " minuuttia.<br> Vaihtoehto 2 kulutus on: " 
 		+ Math.round(total2*100)/100 + " litraa. Aika: " + tunnit2 + " tuntia ja " 
 		+ Math.round(minuutit2) + " minuuttia. <br> " + teksti1 + " "
-		+ Math.round(kulutusEro*100)/100 + " litraa enemmän."
+		+ Math.round(kulutusEro*100)/100 + " litraa vähemmän."
 		+ "<br> " + aikaTeksti + " " + tuntiEro + " tuntia ja " 
 		+ Math.round(minuuttiEro) + " minuuttia nopeampi"
 		
@@ -191,10 +191,10 @@ if(auto1nopeus > 0 && auto2nopeus > 0) {
 		kulutusEro = 0;
 		if(total > total2) {
 			kulutusEro = total - total2;
-			teksti1 = "Vaihtoehto 1 kuluttaa ";
+			teksti1 = "Vaihtoehto 2 kuluttaa ";
 		} else if(total2 > total) {
 			kulutusEro = total2 - total;
-			teksti1 = "Vaihtoehto 2 kuluttaa ";
+			teksti1 = "Vaihtoehto 1 kuluttaa ";
 		} else {
 			kulutusEro = 0;
 		}
@@ -222,7 +222,7 @@ if(auto1nopeus > 0 && auto2nopeus > 0) {
 		+ Math.round(minuutit) + " minuuttia.<br> Vaihtoehto 2 kulutus on: " 
 		+ Math.round(total2*100)/100 + " litraa. Aika: " + tunnit2 + " tuntia ja " 
 		+ Math.round(minuutit2) + " minuuttia. <br> " + teksti1 + " "
-		+ Math.round(kulutusEro*100)/100 + " litraa enemmän."
+		+ Math.round(kulutusEro*100)/100 + " litraa vähemmän."
 		+ "<br> " + aikaTeksti + " " + tuntiEro + " tuntia ja " 
 		+ Math.round(minuuttiEro) + " minuuttia nopeampi"
 	}
