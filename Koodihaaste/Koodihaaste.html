@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koodihaaste</title>
+</head>
+
+<link rel ="stylesheet" type="text/css" href="css/style.css">
+
+<body>
+	
+
+
+<div id="container">
+<header>
+	<img class="logo" src="kuvat/logo.png" alt="logo">
+<nav>
+	<ul class="nav__links">
+		<li><a href="Koodihaaste.html">Etusivu</a></li>
+		<li><a href="Tehtävänanto.html">Tehtävänanto</a></li>
+	</ul>
+</nav>
+<a class="cta" href="https://koodihaaste.solidabis.com/?fbclid=IwAR0DgOZ2ooXCMkiwAycNuTBQSyAVznm08WrLYYwRfa-lBPtueB-cgAplFGk#/" target="_blank"><button>Solidabis koodihaaste</button></a>
+</header>
+
+
+
+
+
+
+<div id="main">
+		
+			<p id="ohje"><b>Valitse haluamallasi autolla kaksi(2) eri nopeutta matkallesi. 
+			Sovellus laskee polttoaineen kulutuksen sekä matkaan kuluvan ajan.
+			Sovellus kertoo myös kulutuksen eron ja aikaeron.
+			</b></p>
+		
+	<div id="valintaboxit">			
+		<form id="valinta">
+		<p id="kulutusotsikko"><b>Valitse auton kulutus</b></p> <br>
+		<select id="autoValinta">
+			<option value="A">Auto A: 3L/100km</option>
+			<option value="B">Auto B: 3.5L/100km</option>
+			<option value="C">Auto C: 4L/100km</option>
+		</select>
+		</form>
+			 <br> <br>
+		
+		
+				<form id="form">
+					<label for="Auto1">Auton nopeus1</label>
+					<input type="number" id="auto1" name="auto1" required> <br><br>
+					
+					<label for="Auto2">Auton nopeus2 </label>
+					<input type="number" id="auto2" name="auto2" required><br><br>
+					
+					<label for="kilometrit">Matka kilometreinä</label> 
+					<input type="number" id="Matka" name="Matka" required> <br><br>
+					
+					<input type="submit" onclick="laskuri1()" value="submit">
+				</form>
+	</div>	 <!--valintaboxit-->		
+	<div id="vastaukset">
+		<h2>Vastaukset tulevat alle näkyviin painettuasi "submit" -nappulaa.</h2> <br>
+		<p id="vastaus"> </p> 
+	</div> <!-- vastaukset-->
+	</div> <!-- main-->
+</div> <!-- container-->
+
+
+
+<footer id="footer">
+	<div id="footer-container">
+		<div id="footer-row">
+			<div id="footer-col">
+					<h4>Extra</h4>
+					<p>© 2021 Kim Poutanen</p>
+			 </div><!--footer col-->
+			 <div id="footer-col">
+				<h4>Yhteystiedot</h4>
+					<address>
+						<ul>
+							<li>Rauhankatu 10, Lahti</li>
+							<li>puh. 0443353375</li>
+							<li>kimpoutanen@hotmail.com</li>
+						</ul>
+					</address>
+			 </div> <!--footer col-->
+			 <div id="footer-col">
+				<h4>Sosiaalisen median linkit</h4>
+				<div id="socials">
+						<a href="https://www.facebook.com/kimpout" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+						<a href="https://twitter.com/daqful" target="_blank"><i class="fab fa-twitter"></i> </a>
+						<a href="https://www.linkedin.com/in/kim-poutanen-279608207/" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+						<a href="https://github.com/KimPoutanen" target="_blank"><i class="fab fa-github"></i> </a>
+				</div><!--social-->
+			</div> <!--footer col-->
+		</div> <!--footer row-->
+	</div> <!--footer container-->
+</footer>
+
+<script src="js/skriptit.js"></script>
+</body>
+</html>
