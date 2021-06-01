@@ -4,8 +4,6 @@ Sovelluksen toteutuksessa käytetty Visual Studio Codea.
 Sovellus on tehty html/css/javascriptillä kokonaan.
 Käyttöjärjestelmänä Windows 10.
 
-<miten pystytetään ja käynnistetään
-
 Aluksi tein vain html sivun, jolla saisin javascriptillä tehdyllä funktiolla
 vastaukset näkyviin. Funktio kehittyi ajan myötä, ja yhdistin kaiken logiikan
 yhteen funktioon, jonka jälkeen tein tyylejä sivulle. 
