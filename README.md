@@ -10,3 +10,5 @@ yhteen funktioon, jonka jälkeen tein tyylejä sivulle.
 Funktio ottaa input valikoista arvot ja laskee annettujen arvojen avulla
 bensan kulutuksen litroissa koko matkalta sekä ajan mitä matkaan kuluu.
 Funktio kertoo myös kumpi vaihtoehdoista on nopeampi ja kumpi kuluttaa vähemmän.
+
+Lopuksi siirsin koodin JSFiddleen pienillä muutoksilla, kuten navigaatiopalkin pois käytöstä sekä logon pois.
