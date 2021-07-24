@@ -12,3 +12,5 @@ bensan kulutuksen litroissa koko matkalta sekä ajan mitä matkaan kuluu.
 Funktio kertoo myös kumpi vaihtoehdoista on nopeampi ja kumpi kuluttaa vähemmän.
 
 Lopuksi siirsin koodin JSFiddleen pienillä muutoksilla, kuten navigaatiopalkin pois käytöstä sekä logon pois.
+
+CSS puoli vähän keskeneräinen.
